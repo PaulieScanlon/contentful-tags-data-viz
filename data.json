@@ -1,0 +1,1957 @@
+[
+  {
+    "type": "article",
+    "title": "Challenge Accepted, One Developer, 10 Projects, 100 Days of Gatsby",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2020-04-20T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.org/blog/2020-04-20-paulie-scanlons-journey-of-100-days/",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Gatsby Recipes, What's All the Fuss About?",
+    "tags": [
+      "Gatsby",
+      "Gatsby Recipes",
+      "React"
+    ],
+    "date": "2020-05-21T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.org/blog/2020-05-21-gatsby-recipes/",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Roll Your Own Comments With Gatsby and Fauna",
+    "tags": [
+      "Gatsby",
+      "React",
+      "Fauna"
+    ],
+    "date": "2020-05-21T00:00:00.000Z",
+    "url": "https://css-tricks.com/roll-your-own-comments-with-gatsby-and-Fauna/",
+    "publication": "CSS Tricks",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/css-tricks-logo_l83ga7.png"
+  },
+  {
+    "type": "article",
+    "title": "Add Playful Animated SVG Reactions to a Gatsby Blog",
+    "tags": [
+      "Gatsby",
+      "React",
+      "GSAP",
+      "SVG"
+    ],
+    "date": "2020-07-16T00:00:00.000Z",
+    "url": "https://www.netlify.com/blog/2020/07/16/add-playful-animated-svg-reactions-to-a-gatsby-blog/",
+    "publication": "Netlify",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1678220344/paulie.dev/Logos/netlify-logo_joepbr.png"
+  },
+  {
+    "type": "article",
+    "title": "Gatsby Cloud is Your (Good) Friend",
+    "tags": [
+      "Gatsby",
+      "Gatsby Cloud",
+      "Gatsby Themes",
+      "React",
+      "Shopify"
+    ],
+    "date": "2020-09-01T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/gatsby-cloud-good-friend",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Hacktoberfest Spotlight A More ‘Polite’ MDX Embed Plugin",
+    "tags": [
+      "Gatsby",
+      "React",
+      "MDX"
+    ],
+    "date": "2020-10-13T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/hacktoberfest-spotlight-mdx-embed/",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Storybook Addon - MDX Embed",
+    "tags": [
+      "Storybook",
+      "React",
+      "MDX"
+    ],
+    "date": "2020-12-10T00:00:00.000Z",
+    "url": "https://medium.com/storybookjs/mdx-embed-for-storybook-9a9f33891875",
+    "publication": "Storybook",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077183/paulie.dev/Logos/storybook-logo_xkoacl.png"
+  },
+  {
+    "type": "article",
+    "title": "Bottoms Up: Gatsby File System Route API + Bums = BumHub",
+    "tags": [
+      "Gatsby",
+      "React",
+      "GitHub REST"
+    ],
+    "date": "2021-01-28T00:00:00.000Z",
+    "url": "https://gatsbyjs.com/blog/bottoms-up-gatsby-file-system-route-api-bums-bumhub",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Voices of Gatsby - Looking for The Lighthouse",
+    "tags": [
+      "Gatsby"
+    ],
+    "date": "2021-03-12T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/gatsby-voices-paul-scanlon/",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Gatsby Cloud - Better, Faster... Greener?",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2021-04-15T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/gatsby-cloud-better-faster-greener",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Getting Started with Gatsby Source WordPress - Choose Your Own Adventure",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2021-04-09T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/getting-started-with-gatsby-source-wordpress-choose-your-own-adventure/",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Shaping the Future of Headless WordPress",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2021-04-01T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/headless-wordpress-future-shapes",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "MDX Embedded Images with the All-New Gatsby Image Plugin",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2021-04-13T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/mdx-embedded-gatsby-image/",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Gatsby Serverless Functions And The International Space Station",
+    "tags": [
+      "Gatsby",
+      "Gatsby Serverless Functions",
+      "React",
+      "three.js",
+      "react-three-fiber"
+    ],
+    "date": "2021-07-26T00:00:00.000Z",
+    "url": "https://www.smashingmagazine.com/2021/07/gatsby-serverless-functions-international-space-station/",
+    "publication": "Smashing Magazine",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/smashing-magazine-logo_rhvh4j.png"
+  },
+  {
+    "type": "article",
+    "title": "How We Made the Gatsby 500 Bottles Giveaway",
+    "tags": [
+      "Gatsby",
+      "Gatsby Serverless Functions",
+      "React",
+      "three.js",
+      "react-three-fiber"
+    ],
+    "date": "2021-07-07T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/how-we-made-the-gatsby-500-bottles-giveaway/",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Monetize Open-Source Software With Gatsby Serverless Functions And Stripe",
+    "tags": [
+      "Gatsby",
+      "Gatsby Serverless Functions",
+      "Storybook",
+      "Stripe",
+      "MDX Embed",
+      "Motion Graphics"
+    ],
+    "date": "2021-09-17T00:00:00.000Z",
+    "url": "https://www.smashingmagazine.com/2021/09/monetize-open-source-software-gatsby-functions-stripe/",
+    "publication": "Smashing Magazine",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/smashing-magazine-logo_rhvh4j.png"
+  },
+  {
+    "type": "article",
+    "title": "Building An API With Gatsby Serverless Functions",
+    "tags": [
+      "Gatsby",
+      "Gatsby Serverless Functions",
+      "React"
+    ],
+    "date": "2021-10-19T00:00:00.000Z",
+    "url": "https://www.smashingmagazine.com/2021/10/building-api-gatsby-functions/",
+    "publication": "Smashing Magazine",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/smashing-magazine-logo_rhvh4j.png"
+  },
+  {
+    "type": "article",
+    "title": "Gatsby FuncJam `21 - The Winners",
+    "tags": [
+      "Gatsby",
+      "Gatsby Serverless Functions",
+      "React"
+    ],
+    "date": "2021-10-28T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/gatsby-funcjam-21-the-winners",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Content Querying with Gatsby + Contentful",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2021-11-22T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/content-querying-with-gatsby-contentful",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Deploy4Swag - Use the best Gatsby ever to get free goodies!",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2021-11-18T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/deploy4swag-use-the-best-gatsby-ever-to-get-free-goodies",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "How To Use The Contentful Rich Text Field with Gatsby",
+    "tags": [
+      "Gatsby",
+      "React",
+      "Contentful"
+    ],
+    "date": "2021-11-02T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/how-to-use-the-contentful-rich-text-field-with-gatsby",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "A Quick Start Guide To Gatsby and Contentful",
+    "tags": [
+      "Gatsby",
+      "React",
+      "Contentful"
+    ],
+    "date": "2021-11-15T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/a-quick-start-guide-to-gatsby-and-contentful",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Become a Data Champion with Gatsby",
+    "tags": [
+      "Gatsby",
+      "React",
+      "JavaScript",
+      "Tailwind"
+    ],
+    "date": "2021-12-04T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/become-a-data-champion-with-gatsby",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Fetch Data from the Unsplash API and render using DSG",
+    "tags": [
+      "Gatsby",
+      "React",
+      "DSG",
+      "JavaScript",
+      "Tailwind"
+    ],
+    "date": "2021-12-17T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/fetch-data-from-the-unsplash-api-and-render-using-dsg",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Fetch data from the New York Times API and render using SSG",
+    "tags": [
+      "Gatsby",
+      "React",
+      "SSG",
+      "JavaScript",
+      "Tailwind"
+    ],
+    "date": "2021-12-09T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/fetch-data-from-the-new-york-times-api-using-ssg",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Fetch data from the US National Weather Service API and render using SSR",
+    "tags": [
+      "Gatsby",
+      "React",
+      "SSR",
+      "JavaScript",
+      "Tailwind"
+    ],
+    "date": "2021-12-05T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/fetch-data-from-the-us-national-weather-service-api-using-ssr",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Gatsby Plugin Not Working, But Why?",
+    "tags": [
+      "Gatsby",
+      "React",
+      "Gatsby Plugins"
+    ],
+    "date": "2021-12-02T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/gatsby-plugin-not-working-but-why",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Building GatsbyConf 2022",
+    "tags": [
+      "Gatsby",
+      "React",
+      "three.js",
+      "react-three-fiber",
+      "Contentful",
+      "Tailwind"
+    ],
+    "date": "2022-01-06T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/building-gatsbyconf-2022",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Performance Optimization for three.js Web Animations",
+    "tags": [
+      "Gatsby",
+      "React",
+      "three.js",
+      "react-three-fiber"
+    ],
+    "date": "2022-01-23T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/performance-optimization-for-three-js-web-animations",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "How to Add Custom Fonts to Gatsby",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2022-03-31T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/how-to-add-custom-fonts-to-gatsby",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "How to Add Google Analytics gtag to Gatsby Using Partytown 🎉",
+    "tags": [
+      "Gatsby",
+      "React",
+      "JavaScript",
+      "Partytown",
+      "Google Analytics"
+    ],
+    "date": "2022-03-23T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/how-to-add-google-analytics-gtag-to-gatsby-using-partytown",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "How to Migrate from Netlify Functions to Gatsby Serverless Functions on Gatsby Cloud",
+    "tags": [
+      "Gatsby",
+      "React",
+      "Gatsby Serverless Functions",
+      "Gatsby Cloud"
+    ],
+    "date": "2022-04-06T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/how-to-migrate-from-netlify-functions-to-gatsby-functions-on-gatsby-cloud",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Building Rise of the Robots",
+    "tags": [
+      "Gatsby",
+      "React",
+      "Contentful",
+      "Rive",
+      "Motion Graphics",
+      "Tailwind"
+    ],
+    "date": "2022-05-23T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/building-rise-of-the-robots",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Building Rise of the Robots with Gatsby and Contentful",
+    "tags": [
+      "Gatsby",
+      "React",
+      "Contentful",
+      "Rive",
+      "Tailwind"
+    ],
+    "date": "2022-07-05T00:00:00.000Z",
+    "url": "https://www.contentful.com/blog/2022/07/05/building-rise-of-the-robots-with-gatsby-and-contentful/",
+    "publication": "Contentful",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658078362/paulie.dev/Logos/contentful-logo_gzxkei.png"
+  },
+  {
+    "type": "article",
+    "title": "What's New In Gatsby 2022?",
+    "tags": [
+      "Gatsby",
+      "Gatsby Serverless Functions",
+      "SSR",
+      "React",
+      "JavaScript",
+      "MDX",
+      "Tailwind"
+    ],
+    "date": "2022-09-20T00:00:00.000Z",
+    "url": "https://www.smashingmagazine.com/2022/09/new-gatsby-2022/",
+    "publication": "Smashing Magazine",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/smashing-magazine-logo_rhvh4j.png"
+  },
+  {
+    "type": "article",
+    "title": "How to Build SVG Line Charts with React, SSR and Tailwind CSS",
+    "tags": [
+      "Gatsby",
+      "Next.js",
+      "Gatsby Serverless Functions",
+      "SSR",
+      "React",
+      "JavaScript",
+      "SVG",
+      "Tailwind"
+    ],
+    "date": "2022-10-08T00:00:00.000Z",
+    "url": "https://thenewstack.io/how-to-build-svg-line-charts-with-react-ssr-and-tailwind-css/",
+    "publication": "The New Stack",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1665235257/paulie.dev/Logos/tns-logo_miu6qk.png"
+  },
+  {
+    "type": "article",
+    "title": "How to Use Google Sheets as a Database with React and Serverless Functions",
+    "tags": [
+      "Gatsby",
+      "Next.js",
+      "Gatsby Serverless Functions",
+      "React",
+      "JavaScript",
+      "Tailwind"
+    ],
+    "date": "2022-10-17T00:00:00.000Z",
+    "url": "https://thenewstack.io/how-to-use-google-sheets-as-a-database-with-react-and-ssr/",
+    "publication": "The New Stack",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1665235257/paulie.dev/Logos/tns-logo_miu6qk.png"
+  },
+  {
+    "type": "article",
+    "title": "Gatsby 5 Upgrade. Say No to YOLO",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2022-11-08T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/gatsby-5-upgrade-say-no-to-yolo",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "How to Use Function Props with Gatsby's Slice API",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2022-11-14T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/how-to-use-function-props-with-gatsbys-slice-api",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "What is Gatsby's Valhalla Content Hub?",
+    "tags": [
+      "Gatsby",
+      "Remix"
+    ],
+    "date": "2022-11-16T00:00:00.000Z",
+    "url": "https://www.gatsbyjs.com/blog/what-is-gatsbys-valhalla-content-hub",
+    "publication": "Gatsby",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "article",
+    "title": "Converting Cloud Provider Regions Into Country Flags",
+    "tags": [
+      "JavaScript"
+    ],
+    "date": "2023-02-17T00:00:00.000Z",
+    "url": "https://www.cockroachlabs.com/blog/converting-cloud-provider-regions-into-country-flags/",
+    "publication": "Cockroach Labs",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1676626221/paulie.dev/Logos/cockroach-logo_g89u6r.png"
+  },
+  {
+    "type": "article",
+    "title": "Putting Gears In Motion: Animating Cars With HTML And SVG",
+    "tags": [
+      "HTML",
+      "SVG"
+    ],
+    "date": "2023-02-16T00:00:00.000Z",
+    "url": "https://www.smashingmagazine.com/2023/02/putting-gears-motion-animating-cars-with-html-svg/",
+    "publication": "Smashing Magazine",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/smashing-magazine-logo_rhvh4j.png"
+  },
+  {
+    "type": "article",
+    "title": "How To Create Dynamic Donut Charts With TailwindCSS And React",
+    "tags": [
+      "HTML",
+      "JavaScript",
+      "React",
+      "Tailwind",
+      "CSS",
+      "SVG"
+    ],
+    "date": "2023-03-07T00:00:00.000Z",
+    "url": "https://www.smashingmagazine.com/2023/03/dynamic-donut-charts-tailwind-css-react/",
+    "publication": "Smashing Magazine",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/smashing-magazine-logo_rhvh4j.png"
+  },
+  {
+    "type": "article",
+    "title": "The Distance from Data to You in Edge Computing",
+    "tags": [
+      "Next.js",
+      "Vercel Serverless Functions",
+      "SSR",
+      "React",
+      "JavaScript",
+      "AWS Lambda",
+      "Serverless"
+    ],
+    "date": "2023-03-19T00:00:00.000Z",
+    "url": "https://thenewstack.io/the-distance-from-data-to-you-in-edge-computing/",
+    "publication": "The New Stack",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1665235257/paulie.dev/Logos/tns-logo_miu6qk.png"
+  },
+  {
+    "type": "article",
+    "title": "What is the CockroachDB Cloud API and why should you use It?",
+    "tags": [
+      "Next.js",
+      "React",
+      "React Query",
+      "Tailwind",
+      "NextAuth",
+      "CockroachDB",
+      "CockroachDB Cloud API"
+    ],
+    "date": "2023-04-06T00:00:00.000Z",
+    "url": "https://www.cockroachlabs.com/blog/what-is-the-cockroachdb-cloud-api/",
+    "publication": "Cockroach Labs",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1676626221/paulie.dev/Logos/cockroach-logo_g89u6r.png"
+  },
+  {
+    "type": "article",
+    "title": "The Art of Data Residency and Application Architecture",
+    "tags": [
+      "Next.js",
+      "React",
+      "React Query",
+      "Tailwind",
+      "CockroachDB",
+      "AWS Lambda"
+    ],
+    "date": "2023-05-17T00:00:00.000Z",
+    "url": "https://www.cockroachlabs.com/demos/demo-data-residency/",
+    "publication": "Cockroach Labs",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1676626221/paulie.dev/Logos/cockroach-logo_g89u6r.png"
+  },
+  {
+    "type": "article",
+    "title": "How to Create a Multi-Region Node.js Lambda API",
+    "tags": [
+      "Serverless",
+      "CockroachDB",
+      "AWS Lambda"
+    ],
+    "date": "2023-06-17T00:00:00.000Z",
+    "url": "https://thenewstack.io/tutorial-how-to-create-a-multi-region-node-js-lambda-api/",
+    "publication": "The New Stack",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1665235257/paulie.dev/Logos/tns-logo_miu6qk.png"
+  },
+  {
+    "type": "article",
+    "title": "Getting Started With Neon Branching",
+    "tags": [
+      "Neon",
+      "Edge Functions"
+    ],
+    "date": "2023-09-19T00:00:00.000Z",
+    "url": "https://www.smashingmagazine.com/2023/09/getting-started-with-neon-branching/",
+    "publication": "Smashing Magazine",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/smashing-magazine-logo_rhvh4j.png"
+  },
+  {
+    "type": "article",
+    "title": "How to use Postgres at the Edge",
+    "tags": [
+      "Neon",
+      "Edge Functions"
+    ],
+    "date": "2023-09-19T00:00:00.000Z",
+    "url": "https://neon.tech/blog/how-to-use-postgres-at-the-edge",
+    "publication": "Neon",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1695653167/paulie.dev/Logos/neon-logo_ymrzrs.png"
+  },
+  {
+    "type": "article",
+    "title": "How to Use Astro with a Sprinkling of React",
+    "tags": [
+      "Astro",
+      "React",
+      "Netlify"
+    ],
+    "date": "2023-10-24T00:00:00.000Z",
+    "url": "https://thenewstack.io/how-to-use-astro-with-a-sprinkling-of-react/",
+    "publication": "The New Stack",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1665235257/paulie.dev/Logos/tns-logo_miu6qk.png"
+  },
+  {
+    "type": "article",
+    "title": "Roll Your Own Analytics With Astro, Vercel Edge Functions and Neon",
+    "tags": [
+      "Astro",
+      "Edge Functions",
+      "Neon"
+    ],
+    "date": "2023-10-03T00:00:00.000Z",
+    "url": "https://neon.tech/blog/roll-your-own-analytics-with-astro-vercel-edge-functions-and-neon",
+    "publication": "Neon",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1695653167/paulie.dev/Logos/neon-logo_ymrzrs.png"
+  },
+  {
+    "type": "article",
+    "title": "How Qwik’s Astro Integration Beats Both React and Vanilla JS",
+    "tags": [
+      "Astro",
+      "JavaScript",
+      "React",
+      "Qwik"
+    ],
+    "date": "2023-11-23T00:00:00.000Z",
+    "url": "https://thenewstack.io/how-quiks-astro-integration-beats-both-react-and-vanilla-js/",
+    "publication": "The New Stack",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1665235257/paulie.dev/Logos/tns-logo_miu6qk.png"
+  },
+  {
+    "type": "article",
+    "title": "How to Build a Server-Side React App Using Vite and Express",
+    "tags": [
+      "React",
+      "Vite",
+      "Express"
+    ],
+    "date": "2023-11-06T00:00:00.000Z",
+    "url": "https://thenewstack.io/how-to-build-a-server-side-react-app-using-vite-and-express/",
+    "publication": "The New Stack",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1665235257/paulie.dev/Logos/tns-logo_miu6qk.png"
+  },
+  {
+    "type": "article",
+    "title": "How to Create Animated GIFs from GSAP Animations",
+    "tags": [
+      "GSAP",
+      "modern-gif"
+    ],
+    "date": "2023-11-30T00:00:00.000Z",
+    "url": "https://www.sitepoint.com/create-animated-gifs-from-gsap-animations/",
+    "publication": "SitePoint",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1701473095/paulie.dev/Logos/sitepoint-logo_vtomod.png"
+  },
+  {
+    "type": "article",
+    "title": "I’m in an Open Relationship with Remix",
+    "tags": [
+      "React",
+      "Remix",
+      "Vite"
+    ],
+    "date": "2023-11-21T00:00:00.000Z",
+    "url": "https://thenewstack.io/im-in-an-open-relationship-with-remix/",
+    "canonical": "https://thenewstack.io/im-in-an-open-relationship-with-remix/",
+    "publication": "The New Stack",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1665235257/paulie.dev/Logos/tns-logo_miu6qk.png"
+  },
+  {
+    "type": "article",
+    "title": "SPAs and React: You Don’t Always Need Server-Side Rendering",
+    "tags": [
+      "React",
+      "Vite"
+    ],
+    "date": "2023-11-01T00:00:00.000Z",
+    "url": "https://thenewstack.io/spas-and-react-you-dont-always-need-server-side-rendering/",
+    "publication": "The New Stack",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1665235257/paulie.dev/Logos/tns-logo_miu6qk.png"
+  },
+  {
+    "type": "article",
+    "title": "Recreating Shopify’s BFCM Globe Using react-globe.gl",
+    "tags": [
+      "JavaScript",
+      "React",
+      "three.js"
+    ],
+    "date": "2023-12-15T00:00:00.000Z",
+    "url": "https://thenewstack.io/recreating-shopifys-bfcm-globe-using-react-globe-gl/",
+    "publication": "The New Stack",
+    "author": "Paul Scanlon",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1665235257/paulie.dev/Logos/tns-logo_miu6qk.png"
+  },
+  {
+    "type": "demo",
+    "title": "Paulie API",
+    "tags": [
+      "Gatsby",
+      "React",
+      "JavaScript",
+      "Gatsby Serverless Functions",
+      "Tailwind"
+    ],
+    "date": "2021-06-11T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1661509051/paulie.dev/2021/06/paulie-api-og-image_ajwpg2.jpg"
+  },
+  {
+    "type": "demo",
+    "title": "500 Bottles",
+    "tags": [
+      "Gatsby",
+      "React",
+      "JavaScript",
+      "three.js",
+      "react-three-fiber",
+      "Shopify"
+    ],
+    "date": "2021-07-07T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1660341000/paulie.dev/2021/07/og-image-500_ziriwj.jpg"
+  },
+  {
+    "type": "demo",
+    "title": "GatsbyConf 2022",
+    "tags": [
+      "Gatsby",
+      "React",
+      "JavaScript",
+      "three.js",
+      "react-three-fiber",
+      "Motion One",
+      "SVG"
+    ],
+    "date": "2022-03-02T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1660310310/paulie.dev/2022/03/gatsby-conf-2022_x5uljs.jpg"
+  },
+  {
+    "type": "demo",
+    "title": "Rise of the Robots",
+    "tags": [
+      "Gatsby",
+      "React",
+      "JavaScript",
+      "Rive",
+      "Tailwind"
+    ],
+    "date": "2022-06-01T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1660312453/paulie.dev/2022/06/social-image-v2_niffhm.jpg"
+  },
+  {
+    "type": "demo",
+    "title": "Edge",
+    "tags": [
+      "Next.js",
+      "React",
+      "three.js",
+      "react-three-fiber",
+      "React Query",
+      "Tailwind",
+      "NextAuth",
+      "pg-promise",
+      "CockroachDB"
+    ],
+    "date": "2023-03-19T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1679390489/paulie.dev/2023/03/edge-demo-featured-image.jpg"
+  },
+  {
+    "type": "demo",
+    "title": "What Is the CockroachDB Cloud API?",
+    "tags": [
+      "Next.js",
+      "React",
+      "React Query",
+      "Tailwind",
+      "NextAuth",
+      "CockroachDB",
+      "CockroachDB Cloud API"
+    ],
+    "date": "2023-04-06T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1680892146/paulie.dev/2023/04/cloud-api-demo-open-graph-image_qr0smk.jpg"
+  },
+  {
+    "type": "demo",
+    "title": "The Art of Data Residency and Application Architecture",
+    "tags": [
+      "Next.js",
+      "React",
+      "React Query",
+      "Tailwind",
+      "CockroachDB",
+      "AWS"
+    ],
+    "date": "2023-05-16T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1684949842/paulie.dev/2023/05/data-residency-open-graph-image-v2_pepxqz.jpg"
+  },
+  {
+    "type": "demo",
+    "title": "How to use Postgres at the Edge",
+    "tags": [
+      "Next.js",
+      "React",
+      "React Query",
+      "Tailwind",
+      "Neon",
+      "Edge Functions",
+      "three.js",
+      "react-three-fiber"
+    ],
+    "date": "2023-09-19T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1696529153/paulie.dev/2023/09/ping-thing-featured-image_bwikws.jpg"
+  },
+  {
+    "type": "opensource",
+    "title": "MDX Embed",
+    "tags": [
+      "React",
+      "JavaScript",
+      "MDX"
+    ],
+    "date": "2020-04-30T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1660732359/paulie.dev/2020/04/mdx-embed-og-image_b4apvi.jpg"
+  },
+  {
+    "type": "opensource",
+    "title": "Cloud Regions Country Flags",
+    "tags": [
+      "JavaScript"
+    ],
+    "date": "2023-02-07T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1675801642/paulie.dev/2023/02/cloud-regions-country-flags_krxqsh.jpg"
+  },
+  {
+    "type": "post",
+    "title": "gatsby-theme-gatstats",
+    "tags": [
+      "Gatsby",
+      "Gatsby Themes"
+    ],
+    "date": "2019-11-12T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915558/paulie.dev/2019/11/12/gatstats_1080x608_dziiss.jpg"
+  },
+  {
+    "type": "post",
+    "title": "gatsby-remark-sticky-table",
+    "tags": [
+      "Gatsby",
+      "Gatsby Plugins"
+    ],
+    "date": "2019-12-14T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915540/paulie.dev/2019/11/24/gatsby-remark-sticky-table_wn2ozg.jpg"
+  },
+  {
+    "type": "post",
+    "title": "gatsby-mdx-routes",
+    "tags": [
+      "Gatsby",
+      "Gatsby Plugins",
+      "MDX"
+    ],
+    "date": "2019-12-24T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915552/paulie.dev/2019/12/12/gatsby-mdx-routes_h9rztw.jpg"
+  },
+  {
+    "type": "post",
+    "title": "gatsby-remark-grid-system",
+    "tags": [
+      "Gatsby",
+      "Gatsby Plugins"
+    ],
+    "date": "2019-12-27T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915545/paulie.dev/2019/12/26/gatsby-remark-grid-system_tvzwjm.jpg"
+  },
+  {
+    "type": "post",
+    "title": "100DaysOfGatsby",
+    "tags": [
+      "Gatsby"
+    ],
+    "date": "2020-01-01T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915605/paulie.dev/2020/01/100DaysOfGatsby_jos0l4.jpg"
+  },
+  {
+    "type": "post",
+    "title": "gatsby-mdx-embed",
+    "tags": [
+      "Gatsby",
+      "Gatsby Plugins",
+      "MDX"
+    ],
+    "date": "2020-01-06T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915604/paulie.dev/2020/01/gatsby-mdx-embed_oacgpn.jpg"
+  },
+  {
+    "type": "post",
+    "title": "gatsby-theme-terminal",
+    "tags": [
+      "Gatsby",
+      "Gatsby Themes"
+    ],
+    "date": "2020-02-28T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915597/paulie.dev/2020/02/gatsby-theme-terminal_enq0b4.jpg"
+  },
+  {
+    "type": "post",
+    "title": "gatsby-plugin-prop-shop",
+    "tags": [
+      "Gatsby",
+      "Gatsby Plugins",
+      "React",
+      "JavaScript"
+    ],
+    "date": "2020-02-15T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915604/paulie.dev/2020/02/prop-shop_buykdi.jpg"
+  },
+  {
+    "type": "post",
+    "title": "100DaysOfGatsby - The Roundup",
+    "tags": [
+      "Gatsby"
+    ],
+    "date": "2020-04-09T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915579/paulie.dev/2020/04/100DaysOfGatsby-TheRoundup_n76noy.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Intersection Observer",
+    "tags": [
+      "React",
+      "JavaScript"
+    ],
+    "date": "2020-04-15T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915575/paulie.dev/2020/04/intersection-observer_bplmy6.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Gatsby or Theme UI Link",
+    "tags": [
+      "React",
+      "Gatsby",
+      "JavaScript",
+      "Theme UI"
+    ],
+    "date": "2020-04-17T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915564/paulie.dev/2020/04/gatsby-or-theme-ui-link_eofadh.jpg"
+  },
+  {
+    "type": "post",
+    "title": "gatsby-recipe-storybook-js",
+    "tags": [
+      "Gatsby",
+      "Gatsby Recipes",
+      "Storybook",
+      "JavaScript"
+    ],
+    "date": "2020-04-26T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915580/paulie.dev/2020/04/gatsby-recipe-storybook-js_ealp2r.jpg"
+  },
+  {
+    "type": "post",
+    "title": "MDX Embedded Images",
+    "tags": [
+      "React",
+      "Gatsby",
+      "JavaScript",
+      "MDX"
+    ],
+    "date": "2020-04-20T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915578/paulie.dev/2020/04/mdx-embedded-images_miumn5.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Officially published",
+    "tags": [
+      "Gatsby"
+    ],
+    "date": "2020-04-21T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915591/paulie.dev/2020/04/officially-published_gsc40b.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Skin UI",
+    "tags": [
+      "Gatsby",
+      "Theme UI",
+      "Fauna"
+    ],
+    "date": "2020-04-01T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915552/paulie.dev/2020/04/skin-ui_tjn2wf.jpg"
+  },
+  {
+    "type": "post",
+    "title": "SVG Icon Systems",
+    "tags": [
+      "React",
+      "JavaScript",
+      "SVG"
+    ],
+    "date": "2020-04-17T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915556/paulie.dev/2020/04/svg-icon-systems_e23nav.jpg"
+  },
+  {
+    "type": "post",
+    "title": "TypeScript Theme UI Link",
+    "tags": [
+      "React",
+      "Gatsby",
+      "TypeScript",
+      "Theme UI"
+    ],
+    "date": "2020-04-24T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915579/paulie.dev/2020/04/typescript-theme-ui-link_crs1ig.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Gatsby CLI Recipes",
+    "tags": [
+      "Gatsby",
+      "Gatsby Recipes",
+      "Storybook",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "date": "2020-05-08T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915610/paulie.dev/2020/05/gatsby-cli-recipes_zxwzkd.jpg"
+  },
+  {
+    "type": "post",
+    "title": "gatsby-recipe-storybook-ts",
+    "tags": [
+      "Gatsby",
+      "Gatsby Recipes",
+      "Storybook",
+      "TypeScript"
+    ],
+    "date": "2020-05-04T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915588/paulie.dev/2020/05/gatsby-recipe-storybook-ts_a6po61.jpg"
+  },
+  {
+    "type": "post",
+    "title": "MDX Embed Intersection Observer",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Gatsby",
+      "Gatsby Plugins",
+      "MDX"
+    ],
+    "date": "2020-05-07T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915583/paulie.dev/2020/05/mdx-embed-intersection-observer_vzrh5c.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Roll Your Own Comments",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Gatsby",
+      "Fauna",
+      "Apollo",
+      "GraphQL",
+      "Netlify"
+    ],
+    "date": "2020-05-21T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915586/paulie.dev/2020/05/roll-your-own-comments_znplo2.jpg"
+  },
+  {
+    "type": "post",
+    "title": "First Ever Donation",
+    "tags": [
+      "Gatsby",
+      "Gatsby Plugins",
+      "MDX"
+    ],
+    "date": "2020-06-04T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915606/paulie.dev/2020/06/first-ever-donation_ijjvb7.jpg"
+  },
+  {
+    "type": "post",
+    "title": "React SVG Bubble Slider",
+    "tags": [
+      "React",
+      "GSAP",
+      "SVG"
+    ],
+    "date": "2020-06-16T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915609/paulie.dev/2020/06/react-svg-bubble-slider_efrm8d.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Everything's a box",
+    "tags": [
+      "React",
+      "Theme UI"
+    ],
+    "date": "2020-07-06T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1595915607/paulie.dev/2020/07/everythings-a-box_vrnzgx.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Gatsby SEO Component",
+    "tags": [
+      "Gatsby",
+      "JavaScript"
+    ],
+    "date": "2020-08-24T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1598260412/paulie.dev/2020/08/gatsby-seo-component_htjrpq.jpg"
+  },
+  {
+    "type": "post",
+    "title": "React hooks and matter.js",
+    "tags": [
+      "React",
+      "JavaScript",
+      "matter.js"
+    ],
+    "date": "2020-08-03T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1596455021/paulie.dev/2020/08/react-hooks-and-matter-js_lj4ozy.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Styled Components Responsive Array Syntax",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Styled Components"
+    ],
+    "date": "2020-08-19T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1597837942/paulie.dev/2020/08/styled-components-responsive-array-syntax_iy5o8k.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Styled Components Style Objects",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Styled Components"
+    ],
+    "date": "2020-08-13T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1597317134/paulie.dev/2020/08/styled-components-style-objects_vzopwc.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Storybook - An alternative approach",
+    "tags": [
+      "Storybook",
+      "JavaScript",
+      "React"
+    ],
+    "date": "2020-10-27T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1603822721/paulie.dev/2020/10/storybook-an-alternative-approach_fjcass.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Use Netlify Functions and the Twitter API v2 as a CMS for your Gatsby blog",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Gatsby",
+      "Netlify Functions",
+      "Twitter API v2"
+    ],
+    "date": "2020-11-17T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1605613346/paulie.dev/2020/11/gatsby-netlify-twitterjpg_ok1k0q.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Silly Site Challenge",
+    "tags": [
+      "Gatsby",
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Theme UI",
+      "SVG",
+      "Netlify Functions",
+      "GitHub REST"
+    ],
+    "date": "2020-11-27T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1606306250/paulie.dev/2020/11/silly-site-challenge_g3fse9.jpg"
+  },
+  {
+    "type": "post",
+    "title": "2020 Top Tweets",
+    "tags": [],
+    "date": "2020-12-24T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1608796591/paulie.dev/2020/12/2020-top-tweets_hdbguj.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Best Bits 2020 ...",
+    "tags": [
+      "React",
+      "Gatsby",
+      "Gatsby Cloud",
+      "JavaScript",
+      "TypeScript",
+      "Shopify",
+      "Styled Components",
+      "Storybook",
+      "Jest",
+      "Enzyme",
+      "Testing Library"
+    ],
+    "date": "2020-08-05T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1608296611/paulie.dev/2020/best-bits/best-bits_rfo2sv.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Use Netlify Functions and the GitHub REST API to add Data Visualization to your Gatsby blog",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Gatsby",
+      "SVG",
+      "Netlify Functions",
+      "GitHub REST"
+    ],
+    "date": "2021-01-06T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1609937744/paulie.dev/2021/01/gatsby-netlify-github_shrg45.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Create an SVG Doughnut Chart from scratch for your Gatsby blog",
+    "tags": [
+      "JavaScript",
+      "React",
+      "SVG",
+      "Gatsby",
+      "CSS"
+    ],
+    "date": "2021-01-11T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1610380360/paulie.dev/2021/01/react-svg-doughnut-chart_u7wza7.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Understanding Theme UI: 1 - Jsx Pragma",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Theme UI"
+    ],
+    "date": "2021-01-12T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1610459626/paulie.dev/2021/01/theme-ui-alpha-1_vdp66g.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Understanding Theme UI: 2 - Styled component",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Theme UI"
+    ],
+    "date": "2021-01-18T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1610989066/paulie.dev/2021/01/theme-ui-alpha-2_eocw5n.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Understanding Theme UI: 3 - Components",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Theme UI"
+    ],
+    "date": "2021-01-19T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1611064599/paulie.dev/2021/01/theme-ui-alpha-3_cqf7ny.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Understanding Theme UI: 4 - Scales",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Theme UI"
+    ],
+    "date": "2021-01-21T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1611161909/paulie.dev/2021/01/theme-ui-alpha-4_pwoa5f.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Understanding Theme UI: 5 - Media Queries",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Theme UI"
+    ],
+    "date": "2021-02-03T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1612348360/paulie.dev/2021/02/theme-ui-alpha-5_sw4nyv.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Understanding Theme UI: 6 - The Hacks",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Theme UI"
+    ],
+    "date": "2021-02-09T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1612869331/paulie.dev/2021/02/theme-ui-alpha-6_esqykh.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Create Accessible Data Visualization for your Gatsby Blog with Charts.css",
+    "tags": [
+      "React",
+      "Gatsby",
+      "JavaScript",
+      "MDX",
+      "Charts CSS"
+    ],
+    "date": "2021-03-27T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1603273280/paulie.dev/placeholder_ekfnq2.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Gatsby File System Route API: Multiple Source MDX",
+    "tags": [
+      "React",
+      "Gatsby",
+      "JavaScript",
+      "MDX"
+    ],
+    "date": "2021-03-16T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1615898390/paulie.dev/2021/03/files-system-mdx_bc8vl5.jpg"
+  },
+  {
+    "type": "post",
+    "title": "MDX \"fold it in\"",
+    "tags": [
+      "React",
+      "Gatsby",
+      "MDX"
+    ],
+    "date": "2021-03-29T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1617028326/paulie.dev/2021/03/mdx-fold-it-in_ylkqsk.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Understanding Theme UI",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Theme UI"
+    ],
+    "date": "2021-03-08T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1615117953/paulie.dev/2021/03/understanding-theme-ui_zkiive.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Gatsby Plugin Image: withArtDirection",
+    "tags": [
+      "React",
+      "Gatsby",
+      "JavaScript",
+      "Gatsby Plugins"
+    ],
+    "date": "2021-04-09T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1617981184/paulie.dev/2021/04/with-art-direction_xatque.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Sourcing local .json files with Gatsby",
+    "tags": [
+      "Node.js",
+      "Gatsby",
+      "JavaScript",
+      "JSON"
+    ],
+    "date": "2021-04-05T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1617638388/paulie.dev/2021/04/sourcing-local-json-files_l5yizf.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Using Gatsby Serverless Functions as an abstracted API",
+    "tags": [
+      "React",
+      "Gatsby",
+      "Gatsby Serverless Functions",
+      "JavaScript",
+      "Gatsby Plugins"
+    ],
+    "date": "2021-06-11T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1623406763/paulie.dev/2021/06/gatsby-abstracted-functions_ordai0.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Modify Gatsby's GraphQL data types using createSchemaCustomization",
+    "tags": [
+      "React",
+      "Gatsby",
+      "JavaScript",
+      "GraphQL"
+    ],
+    "date": "2021-07-02T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1625228217/paulie.dev/2021/07/gatsby-create-schema-customization_c88wzg.jpg"
+  },
+  {
+    "type": "post",
+    "title": "How to \"fix\" Gatsby slow local build times",
+    "tags": [
+      "React",
+      "Gatsby",
+      "JavaScript"
+    ],
+    "date": "2021-07-28T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1627493326/paulie.dev/2021/07/gatsby-slow-build-times_hhpv0f.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Add data to Gatsby's Data layer using sourceNodes",
+    "tags": [
+      "React",
+      "Gatsby",
+      "JavaScript"
+    ],
+    "date": "2021-07-01T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1625139192/paulie.dev/2021/07/gatsby-source-nodes_tqvkta.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Gatsby FuncJam 21",
+    "tags": [
+      "Gatsby",
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Theme UI",
+      "Gatsby Serverless Functions",
+      "Google Analytics"
+    ],
+    "date": "2021-08-18T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1629283119/paulie.dev/2021/08/gatsby-func-jam-21-low-res_ifvoat.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Best Bits 2021 ...",
+    "tags": [
+      "React",
+      "Gatsby",
+      "Gatsby Serverless Functions",
+      "three.js",
+      "react-three-fiber",
+      "JavaScript",
+      "TypeScript",
+      "Theme UI",
+      "GitHub REST"
+    ],
+    "date": "2021-01-01T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1627327432/paulie.dev/2021/best-bits/best-bits_ejlnzf.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Using a useLocalStorage hook and rehydration",
+    "tags": [
+      "JavaScript",
+      "React"
+    ],
+    "date": "2022-01-02T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1641062596/paulie.dev/2022/01/use-local-storage_hj0ddg.jpg"
+  },
+  {
+    "type": "post",
+    "title": "How to use Gatsby's Head API with MDX",
+    "tags": [
+      "Gatsby",
+      "React",
+      "JavaScript",
+      "MDX"
+    ],
+    "date": "2022-07-29T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1659251364/paulie.dev/2022/07/head-api-mdx_eys622.jpg"
+  },
+  {
+    "type": "post",
+    "title": "How to use Gatsby's Script API with Google Analytics",
+    "tags": [
+      "Gatsby",
+      "React",
+      "JavaScript",
+      "Partytown",
+      "Google Analytics"
+    ],
+    "date": "2022-07-26T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658833914/paulie.dev/2022/07/script-component-ga4-property_pc0nco.jpg"
+  },
+  {
+    "type": "post",
+    "title": "How to use Utterances with React",
+    "tags": [
+      "React",
+      "JavaScript"
+    ],
+    "date": "2022-08-10T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1660125530/paulie.dev/2022/08/react-utterances_kinbru.jpg"
+  },
+  {
+    "type": "post",
+    "title": "MDX 2 Breaking changes and gatsby-plugin-mdx v4 (Content)",
+    "tags": [
+      "Gatsby",
+      "MDX"
+    ],
+    "date": "2022-08-26T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1662113032/paulie.dev/2022/08/mdx-2-breaking-change-content_z9ahxa.jpg"
+  },
+  {
+    "type": "post",
+    "title": "MDX and ESM rehype Packages",
+    "tags": [
+      "Gatsby",
+      "MDX",
+      "rehype"
+    ],
+    "date": "2022-08-18T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1661367416/paulie.dev/2022/08/mdx-esm-rehyp_krbmdq.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Syntax highlighting with Gatsby, MDX, Tailwind and Prism React Renderer",
+    "tags": [
+      "Gatsby",
+      "React",
+      "JavaScript",
+      "MDX",
+      "Tailwind",
+      "Prism"
+    ],
+    "date": "2022-08-08T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1659983153/paulie.dev/2022/08/prism-react-renderer_emtzwb.jpg"
+  },
+  {
+    "type": "post",
+    "title": "How to use Serverless Functions with SSR",
+    "tags": [
+      "Gatsby",
+      "Gatsby Serverless Functions",
+      "React",
+      "JavaScript",
+      "Tailwind",
+      "Google Analytics"
+    ],
+    "date": "2022-09-27T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1664353559/paulie.dev/2022/09/gatsby-shared-functions_f4nzzv.jpg"
+  },
+  {
+    "type": "post",
+    "title": "How to use TanStack Query (react-query) with Gatsby",
+    "tags": [
+      "Gatsby",
+      "Gatsby Serverless Functions",
+      "React",
+      "JavaScript",
+      "React Query"
+    ],
+    "date": "2022-09-08T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1662654507/paulie.dev/2022/09/how-to-use-tanstack-query-with-gatsby_lzbhbi.jpg"
+  },
+  {
+    "type": "post",
+    "title": "MDX 2 Breaking changes and gatsby-plugin-mdx v4 (Slug)",
+    "tags": [
+      "Gatsby",
+      "MDX"
+    ],
+    "date": "2022-09-02T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1662113138/paulie.dev/2022/09/mdx-2-breaking-change-slug_pltwrl.jpg"
+  },
+  {
+    "type": "post",
+    "title": "How to Create Image Slices Using Sharp",
+    "tags": [
+      "JavaScript",
+      "Sharp"
+    ],
+    "date": "2022-10-17T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1666003825/paulie.dev/2022/10/sharp-image-manipulation_ughrnu.jpg"
+  },
+  {
+    "type": "post",
+    "title": "React hydration error 425 \"Text content does not match server-rendered HTML\"",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2022-10-20T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1666273728/paulie.dev/2022/10/react-hydration-error-425_mxagat.jpg"
+  },
+  {
+    "type": "post",
+    "title": "How to use React's Context API with Gatsby",
+    "tags": [
+      "Gatsby",
+      "React"
+    ],
+    "date": "2022-11-01T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1666965090/paulie.dev/2022/11/react-context-api_suvuco.jpg"
+  },
+  {
+    "type": "post",
+    "title": "How to Create Custom Marketo Forms With React",
+    "tags": [
+      "Next.js",
+      "React",
+      "Marketo"
+    ],
+    "date": "2022-12-22T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1671727382/paulie.dev/2022/12/how-to-create-custom-marketo-forms-with-react_db2xrx.jpg"
+  },
+  {
+    "type": "post",
+    "title": "My Cockroach Labs Interview App",
+    "tags": [
+      "Next.js",
+      "React",
+      "three.js",
+      "react-three-fiber",
+      "React Query",
+      "Tailwind",
+      "NextAuth",
+      "pg-promise",
+      "CockroachDB"
+    ],
+    "date": "2023-02-09T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1675897080/paulie.dev/2023/02/edge-open-graph-image_wkhz1c.jpg"
+  },
+  {
+    "type": "post",
+    "title": "Getting Started With CockroachDB, pg-promise and Next.js",
+    "tags": [
+      "Next.js",
+      "React",
+      "pg-promise",
+      "CockroachDB"
+    ],
+    "date": "2023-02-24T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1677502114/paulie.dev/2023/02/open-graph-image_qkecxd.jpg"
+  },
+  {
+    "type": "post",
+    "title": "How to Create Excerpts With Astro",
+    "tags": [
+      "Astro",
+      "JavaScript",
+      "Markdown"
+    ],
+    "date": "2023-09-27T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1695815276/paulie.dev/2023/09/create-an-excerpt-with-astro_yulzpp.jpg"
+  },
+  {
+    "type": "post",
+    "title": "How to Create an SVG Radar Chart using Astro and Tailwind",
+    "tags": [
+      "Astro",
+      "JavaScript",
+      "SVG",
+      "Tailwind"
+    ],
+    "date": "2023-10-02T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1696266223/paulie.dev/2023/10/create-an-svg-radar-chart_xu2v1i.jpg"
+  },
+  {
+    "type": "post",
+    "title": "What Is a Proxy Redirect?",
+    "tags": [
+      "DevOps"
+    ],
+    "date": "2023-10-15T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1697385096/paulie.dev/2023/10/what-is-a-proxy-redirect_gcqtqh.jpg"
+  },
+  {
+    "type": "post",
+    "title": "A set of: \"Sign In With Google\" Buttons Made With Tailwind",
+    "tags": [
+      "Tailwind"
+    ],
+    "date": "2023-11-22T00:00:00.000Z",
+    "author": "Paul Scanlon",
+    "featuredImage": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1700675974/paulie.dev/2023/11/sign-in-with-google-buttons-featured-image_xwemhc.jpg"
+  },
+  {
+    "type": "stream",
+    "title": "Gatsby Deep Dives with Queen Raae (Series 1)",
+    "tags": [
+      "Gatsby"
+    ],
+    "date": "2021-04-09T00:00:00.000Z",
+    "url": "https://www.youtube.com/playlist?list=PL9W-8hhRoLoN7axEFJQ17rJvk2KTiM2GP",
+    "show": "Gatsby Deep Dives",
+    "role": "Pirate",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/deep-dives-logo_pizau1.png"
+  },
+  {
+    "type": "stream",
+    "title": "Gatsby Summer Functions with Queen Raae",
+    "tags": [
+      "Gatsby",
+      "Gatsby Serverless Functions"
+    ],
+    "date": "2021-07-16T00:00:00.000Z",
+    "url": "https://www.youtube.com/playlist?list=PL9W-8hhRoLoO79t6nLx36tNsLyBAowbHT",
+    "show": "Summer Functions",
+    "role": "Pirate",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077183/paulie.dev/Logos/summer-functions-logo_bdp4ev.png"
+  },
+  {
+    "type": "stream",
+    "title": "Achieving Performant Creativity with Gatsby and Rive",
+    "tags": [
+      "Gatsby",
+      "React",
+      "Contentful",
+      "Rive"
+    ],
+    "date": "2022-06-14T00:00:00.000Z",
+    "url": "https://www.youtube.com/watch?v=Yxwf4B2H9LE",
+    "show": "Gatsby Webinar",
+    "role": "Speaker",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  },
+  {
+    "type": "stream",
+    "title": "How to Use Gatsby's Script Component, Powered by Partytown 🎉",
+    "tags": [
+      "Gatsby",
+      "React",
+      "Partytown"
+    ],
+    "date": "2022-07-14T00:00:00.000Z",
+    "url": "https://www.youtube.com/watch?v=Yxwf4B2H9LE",
+    "show": "Gatsby Webinar",
+    "role": "Host",
+    "logo": "https://res.cloudinary.com/www-paulie-dev/image/upload/v1658077182/paulie.dev/Logos/gatsby-logo_dgbkjm.png"
+  }
+]
