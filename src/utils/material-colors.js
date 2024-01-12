@@ -11,7 +11,7 @@ const materialColors = {
   green: ['#388E3C', '#43A047', '#4CAF50', '#66BB6A', '#81C784', '#A5D6A7'],
   lightGreen: ['#7CB342', '#8BC34A', '#9CCC65', '#AED581', '#C5E1A5', '#DCEDC8'],
   lime: ['#AFB42B', '#C0CA33', '#CDDC39', '#D4E157', '#DCE775', '#E6EE9C'],
-  yellow: ['#FBC02D', '#FDD835', '#FFEB3B', '#FFEE58', '#FFF176', '#FFF59D'],
+  // yellow: ['#FBC02D', '#FDD835', '#FFEB3B', '#FFEE58', '#FFF176', '#FFF59D'],
   amber: ['#FFA000', '#FFB300', '#FFC107', '#FFCA28', '#FFD54F', '#FFE082'],
   orange: ['#F57C00', '#FB8C00', '#FF9800', '#FFA726', '#FFB74D', '#FFCC80'],
   deepOrange: ['#E64A19', '#F4511E', '#FF5722', '#FF7043', '#FF8A65', '#FFAB91'],
@@ -19,6 +19,15 @@ const materialColors = {
   grey: ['#616161', '#757575', '#9E9E9E', '#BDBDBD', '#E0E0E0', '#EEEEEE'],
 };
 
-export const materialColorsFlat = [].concat(
-  ...Object.values(materialColors).map((colorArray) => colorArray.slice().sort(() => Math.random() - 0.5))
+// Function to perform Fisher-Yates shuffle
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
+
+export const materialColorsFlat = shuffleArray(
+  [].concat(...Object.values(materialColors).map((colorArray) => shuffleArray(colorArray.slice())))
 );

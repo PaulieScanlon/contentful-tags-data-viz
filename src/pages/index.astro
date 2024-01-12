@@ -28,7 +28,17 @@ const paddingR = 70;
 const paddingTop = 200;
 const paddingBottom = 150;
 
-const chartData = tagCounts.map((data, index) => {
+const filterData = (dataArray, includeValues) => {
+  if (!includeValues || includeValues.length === 0) {
+    return dataArray;
+  }
+
+  return dataArray.filter((item) => includeValues.includes(item.id));
+};
+
+const selectedValues = ['astro', 'next-js', 'gatsby'];
+
+const allData = tagCounts.map((data, index) => {
   const { name, total } = data;
 
   return {
@@ -52,6 +62,10 @@ const chartData = tagCounts.map((data, index) => {
 const chartXAxis = createXAxis(createChartDates(tagCounts[0].years), chartWidth, chartHeight, paddingL, paddingR, 100);
 const chartYAxis = createYAxis(createChartValues(0, maxValue), chartHeight, 60, paddingTop, paddingBottom);
 const chartGuides = createChartGuides(guides, chartWidth, chartHeight, paddingL, paddingR, paddingTop, paddingBottom);
+
+const chartData = filterData(allData, selectedValues);
+
+console.log(chartData);
 ---
 
 <html>
