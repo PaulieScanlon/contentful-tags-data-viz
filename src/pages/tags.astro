@@ -1,0 +1,29 @@
+---
+import { contentfulClient } from '../lib/contentful';
+
+const tags = await contentfulClient.getEntries({
+  content_type: 'blogPost',
+});
+---
+
+<html>
+  <body>
+    <main>
+      <ul>
+        {
+          tags.items.map((item) => {
+            const {
+              fields: { tags },
+            } = item;
+
+            return (
+              <li>
+                <code>{JSON.stringify(tags, null, 2)}</code>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </main>
+  </body>
+</html>

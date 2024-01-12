@@ -1,18 +1,158 @@
 ---
-// Welcome to Astro! Everything between these triple-dash code fences
-// is your "component frontmatter". It never runs in the browser.
-console.log('This runs in your terminal, not the browser!');
+import { contentfulClient } from '../lib/contentful';
+
+import { findMaxValue } from '../utils/find-max-value';
+import { createTagCounts } from '../utils/create-tag-counts';
+import { createLineChartPoints } from '../utils/create-line-chart-points';
+import { createChartDates } from '../utils/create-chart-dates';
+import { createChartValues } from '../utils/create-chart-values';
+import { createXAxis } from '../utils/create-x-axis';
+import { createYAxis } from '../utils/create-y-axis';
+import { createChartGuides } from '../utils/create-chart-guides';
+
+import { materialColorsFlat } from '../utils/material-colors';
+
+const tags = await contentfulClient.getEntries({
+  content_type: 'blogPost',
+});
+
+const tagCounts = createTagCounts(tags.items);
+const maxValue = findMaxValue(tagCounts);
+const guides = [...Array(8).keys()];
+
+const fontSize = 20;
+const chartWidth = 1920;
+const chartHeight = 1080;
+const paddingL = 120;
+const paddingR = 70;
+const paddingTop = 200;
+const paddingBottom = 150;
+
+const chartData = tagCounts.map((data, index) => {
+  const { name, total } = data;
+
+  return {
+    id: name.replace(/[^\w\d]/g, '-').toLowerCase(),
+    name: name,
+    total: total,
+    color: materialColorsFlat[index],
+    points: createLineChartPoints(
+      data.years,
+      chartWidth,
+      chartHeight,
+      maxValue,
+      paddingL,
+      paddingR,
+      paddingTop,
+      paddingBottom
+    ).toString(),
+  };
+});
+
+const chartXAxis = createXAxis(createChartDates(tagCounts[0].years), chartWidth, chartHeight, paddingL, paddingR, 100);
+const chartYAxis = createYAxis(createChartValues(0, maxValue), chartHeight, 60, paddingTop, paddingBottom);
+const chartGuides = createChartGuides(guides, chartWidth, chartHeight, paddingL, paddingR, paddingTop, paddingBottom);
 ---
 
-<!-- Below is your "component template." It's just HTML, but with
-     some magic sprinkled in to help you build great templates. -->
 <html>
-  <body>
-    <h1>Hello, World!</h1>
+  <body
+    style={{
+      margin: 0,
+    }}
+  >
+    <main
+      style={{
+        margin: '40px',
+      }}
+    >
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        viewBox={`0 0 ${chartWidth} ${chartHeight}`}
+        style={{
+          background: '#FAFAFA',
+        }}
+      >
+        {
+          chartGuides.map((data) => {
+            const { x, y, width } = data;
+            return (
+              <rect
+                x={x}
+                y={y}
+                width={width}
+                height={2}
+                style={{
+                  fill: '#B0BEC5',
+                }}
+              />
+            );
+          })
+        }
+
+        {
+          chartData.map((data) => {
+            const { id, color, points } = data;
+            return (
+              <polyline
+                id={`${id}-polyline`}
+                points={points}
+                style={{
+                  fill: 'none',
+                  strokeWidth: 3,
+                  stroke: color,
+                }}
+              />
+            );
+          })
+        }
+
+        {
+          chartXAxis.map((data) => {
+            const { date, x, y } = data;
+            return (
+              <text
+                x={x + fontSize / 2}
+                y={y}
+                text-anchor='start'
+                style={{
+                  fill: '#9E9E9E',
+                  fontSize: fontSize,
+                  fontFamily: 'system-ui',
+                  transform: 'rotate(90deg)',
+                  transformBox: 'content-box',
+                }}
+              >
+                {date}
+              </text>
+            );
+          })
+        }
+
+        {
+          chartYAxis.map((data) => {
+            const { value, x, y } = data;
+
+            return (
+              <text
+                x={x}
+                y={y + fontSize / 2}
+                text-anchor='start'
+                style={{
+                  fill: '#9E9E9E',
+                  fontSize: fontSize,
+                  fontFamily: 'system-ui',
+                }}
+              >
+                {value}
+              </text>
+            );
+          })
+        }
+      </svg>
+      <!-- <pre>{JSON.stringify(chartMonths, null,2 )}</pre> -->
+      <!-- <pre>{JSON.stringify(maxValue)}</pre> -->
+      <!-- <pre>{JSON.stringify(tagCounts, null, 2)}</pre> -->
+      <!-- <pre>{JSON.stringify(chartData, null, 2)}</pre> -->
+    </main>
   </body>
 </html>
-<style>
-  h1 {
-    color: orange;
-  }
-</style>
