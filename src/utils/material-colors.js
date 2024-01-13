@@ -15,8 +15,8 @@ const materialColors = {
   amber: ['#FFA000', '#FFB300', '#FFC107', '#FFCA28', '#FFD54F', '#FFE082'],
   orange: ['#F57C00', '#FB8C00', '#FF9800', '#FFA726', '#FFB74D', '#FFCC80'],
   deepOrange: ['#E64A19', '#F4511E', '#FF5722', '#FF7043', '#FF8A65', '#FFAB91'],
-  blueGrey: ['#455A64', '#546E7A', '#607D8B', '#78909C', '#90A4AE', '#B0BEC5'],
-  grey: ['#616161', '#757575', '#9E9E9E', '#BDBDBD', '#E0E0E0', '#EEEEEE'],
+  // blueGrey: ['#455A64', '#546E7A', '#607D8B', '#78909C', '#90A4AE', '#B0BEC5'],
+  // grey: ['#616161', '#757575', '#9E9E9E', '#BDBDBD', '#E0E0E0', '#EEEEEE'],
 };
 
 // Function to perform Fisher-Yates shuffle
