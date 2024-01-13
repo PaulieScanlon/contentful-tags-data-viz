@@ -56,7 +56,7 @@ const Dashboard = component$(
                         class='cursor-pointer'
                       />
                       <div class='flex items-center justify-between w-full'>
-                        <span class='font-medium'>{name}</span>
+                        <span class='font-medium select-none'>{name}</span>
                         <span
                           class='flex items-center justify-center text-white rounded-full w-5 h-5 bg-gray-200'
                           style={{
