@@ -1,4 +1,5 @@
 ---
+import Main from '../layouts/main.astro';
 import { contentfulClient } from '../lib/contentful';
 
 import { createTagCounts } from '../utils/create-tag-counts';
@@ -10,24 +11,20 @@ const tags = await contentfulClient.getEntries({
 const tagCounts = createTagCounts(tags.items);
 ---
 
-<html>
-  <body>
-    <main>
-      <ul>
-        {
-          tagCounts.map((item) => {
-            // console.log(item);
-            const { name, years } = item;
+<Main>
+  <ul>
+    {
+      tagCounts.map((item) => {
+        // console.log(item);
+        const { name, years } = item;
 
-            return (
-              <li>
-                <code>{name}</code>
-                <pre>{JSON.stringify(years, null, 2)}</pre>
-              </li>
-            );
-          })
-        }
-      </ul>
-    </main>
-  </body>
-</html>
+        return (
+          <li>
+            <code>{name}</code>
+            <pre>{JSON.stringify(years, null, 2)}</pre>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Main>

@@ -1,4 +1,7 @@
 ---
+import Main from '../layouts/main.astro';
+import Dashboard from '../layouts/dashboard';
+
 import { contentfulClient } from '../lib/contentful';
 
 import { findMaxValue } from '../utils/find-max-value';
@@ -20,121 +23,55 @@ const tagCounts = createTagCounts(tags.items);
 const maxValue = findMaxValue(tagCounts);
 const guides = [...Array(8).keys()];
 
-const fontSize = 20;
 const chartWidth = 1920;
 const chartHeight = 1080;
 const paddingL = 120;
 const paddingR = 70;
-const paddingTop = 200;
-const paddingBottom = 150;
+const paddingTop = 220;
+const paddingBottom = 180;
 
-const filterData = (data, includeValues) => {
-  if (!includeValues || includeValues.length === 0) {
-    return data;
-  }
+const chartData = tagCounts
+  .map((data, index) => {
+    const { name, total } = data;
 
-  return data.filter((item) => includeValues.includes(item.id));
-};
+    return {
+      id: name.replace(/[^\w\d]/g, '-').toLowerCase(),
+      name: name,
+      total: total,
+      color: materialColorsFlat[index],
+      points: createLineChartPoints(
+        data.years,
+        chartWidth,
+        chartHeight,
+        maxValue,
+        paddingL,
+        paddingR,
+        paddingTop,
+        paddingBottom
+      ).toString(),
+    };
+  })
+  .sort((a, b) => b.total - a.total);
 
-const selectedValues = ['astro', 'next-js', 'gatsby'];
-
-const allData = tagCounts.map((data, index) => {
-  const { name, total } = data;
-
-  return {
-    id: name.replace(/[^\w\d]/g, '-').toLowerCase(),
-    name: name,
-    total: total,
-    color: materialColorsFlat[index],
-    points: createLineChartPoints(
-      data.years,
-      chartWidth,
-      chartHeight,
-      maxValue,
-      paddingL,
-      paddingR,
-      paddingTop,
-      paddingBottom
-    ).toString(),
-  };
-});
-
-const chartXAxis = createXAxis(createChartDates(tagCounts[0].years), chartWidth, chartHeight, paddingL, paddingR, 100);
+const dateRange = createChartDates(tagCounts[0].years);
+const dateStart = dateRange[0];
+const dateEnd = dateRange[dateRange.length - 1];
+const chartXAxis = createXAxis(dateRange, chartWidth, chartHeight, paddingL, paddingR, 120);
 const chartYAxis = createYAxis(createChartValues(0, maxValue), chartHeight, 60, paddingTop, paddingBottom);
 const chartGuides = createChartGuides(guides, chartWidth, chartHeight, paddingL, paddingR, paddingTop, paddingBottom);
-
-const chartData = filterData(allData, selectedValues);
 ---
 
-<html>
-  <body>
-    <main>
-      <svg xmlns='http://www.w3.org/2000/svg' viewBox={`0 0 ${chartWidth} ${chartHeight}`} class='bg-gray-100'>
-        {
-          chartGuides.map((data) => {
-            const { x, y, width } = data;
-            return <rect x={x} y={y} width={width} height={2} class='fill-gray-200' />;
-          })
-        }
-
-        {
-          chartData.map((data) => {
-            const { id, color, points } = data;
-            return (
-              <polyline
-                id={`${id}-polyline`}
-                points={points}
-                style={{
-                  fill: 'none',
-                  strokeWidth: 3,
-                  stroke: color,
-                }}
-              />
-            );
-          })
-        }
-
-        {
-          chartXAxis.map((data) => {
-            const { date, x, y } = data;
-            return (
-              <text
-                x={x + fontSize / 2}
-                y={y}
-                text-anchor='start'
-                class='fill-gray-400'
-                style={{
-                  fontSize: fontSize,
-                  transform: 'rotate(90deg)',
-                  transformBox: 'content-box',
-                }}
-              >
-                {date}
-              </text>
-            );
-          })
-        }
-
-        {
-          chartYAxis.map((data) => {
-            const { value, x, y } = data;
-
-            return (
-              <text
-                x={x}
-                y={y + fontSize / 2}
-                text-anchor='start'
-                class='fill-gray-400'
-                style={{
-                  fontSize: fontSize,
-                }}
-              >
-                {value}
-              </text>
-            );
-          })
-        }
-      </svg>
-    </main>
-  </body>
-</html>
+<Main>
+  <Dashboard
+    dateStart={dateStart}
+    dateEnd={dateEnd}
+    paddingL={paddingL}
+    paddingR={paddingR}
+    chartData={chartData}
+    chartWidth={chartWidth}
+    chartHeight={chartHeight}
+    chartXAxis={chartXAxis}
+    chartYAxis={chartYAxis}
+    chartGuides={chartGuides}
+  />
+</Main>
