@@ -40,15 +40,21 @@ const Dashboard = component$(
               <img alt='Contentful Logo' src='/contentful-logo.svg' class='w-32' />
             </div>
             <hr class='my-4' />
-            <ul class='flex flex-col gap-3'>
-              {chartData.map((item) => {
+            <ul class='flex flex-col gap-1'>
+              {chartData.map((item, index) => {
                 const { id, color, name, total } = item;
                 const isChecked = selectedValues.includes(id);
 
                 return (
-                  <li class='pl-1'>
-                    <label class='flex gap-2 items-center text-xs'>
-                      <input type='checkbox' value={id} checked={isChecked} onChange$={handleChange} />
+                  <li key={index} class='p-2 transition-colors duration-300 hover:bg-gray-100'>
+                    <label class='flex gap-2 items-center text-xs cursor-pointer'>
+                      <input
+                        type='checkbox'
+                        value={id}
+                        checked={isChecked}
+                        onChange$={handleChange}
+                        class='cursor-pointer'
+                      />
                       <div class='flex items-center justify-between w-full'>
                         <span class='font-medium'>{name}</span>
                         <span
@@ -74,17 +80,18 @@ const Dashboard = component$(
               viewBox={`0 0 ${chartWidth} ${chartHeight}`}
               class='bg-white shadow'
             >
-              {chartGuides.map((data) => {
+              {chartGuides.map((data, index) => {
                 const { x, y, width } = data;
-                return <rect x={x} y={y} width={width} height={2} class='fill-gray-200' />;
+                return <rect key={index} x={x} y={y} width={width} height={2} class='fill-gray-200' />;
               })}
 
-              {chartData.map((data) => {
+              {chartData.map((data, index) => {
                 const { id, color, points } = data;
                 const isVisible = selectedValues.includes(id);
 
                 return (
                   <polyline
+                    key={index}
                     points={points}
                     style={{
                       display: isVisible ? '' : 'none',
@@ -96,10 +103,11 @@ const Dashboard = component$(
                 );
               })}
 
-              {chartXAxis.map((data) => {
+              {chartXAxis.map((data, index) => {
                 const { date, x, y } = data;
                 return (
                   <text
+                    key={index}
                     x={x + fontSize / 2}
                     y={y}
                     text-anchor='start'
@@ -115,11 +123,12 @@ const Dashboard = component$(
                 );
               })}
 
-              {chartYAxis.map((data) => {
+              {chartYAxis.map((data, index) => {
                 const { value, x, y } = data;
 
                 return (
                   <text
+                    key={index}
                     x={x}
                     y={y + fontSize / 2}
                     text-anchor='start'
