@@ -1,7 +1,7 @@
 {
   "name": "contentful-tags-data-viz",
   "version": "1.0.0",
-  "description": "Example site using Astro + Contentful to create data viz for tags",
+  "description": "Example site using Astro + Qwik with Contentful to create data viz for tags",
   "main": "index.js",
   "scripts": {
     "dev": "astro dev",
