@@ -2,13 +2,13 @@
 import Main from '../layouts/main.astro';
 import { contentfulClient } from '../lib/contentful';
 
-import { createTagCounts } from '../utils/create-tag-counts';
+import { createTimeSeries } from '../utils/create-time-series';
 
 const tags = await contentfulClient.getEntries({
   content_type: 'blogPost',
 });
 
-const tagCounts = createTagCounts(tags.items);
+const tagCounts = createTimeSeries(tags.items);
 ---
 
 <Main>
@@ -28,3 +28,4 @@ const tagCounts = createTagCounts(tags.items);
     }
   </ul>
 </Main>
+../utils/create-time-series

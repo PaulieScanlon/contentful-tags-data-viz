@@ -1,6 +1,6 @@
 import { createDefaultMonths } from './create-default-months';
 
-export const createTagCounts = (data) => {
+export const createTimeSeries = (data) => {
   const yearsSet = new Set();
 
   const tags = data.reduce((items, item) => {
