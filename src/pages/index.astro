@@ -28,12 +28,12 @@ const paddingR = 70;
 const paddingTop = 200;
 const paddingBottom = 150;
 
-const filterData = (dataArray, includeValues) => {
+const filterData = (data, includeValues) => {
   if (!includeValues || includeValues.length === 0) {
-    return dataArray;
+    return data;
   }
 
-  return dataArray.filter((item) => includeValues.includes(item.id));
+  return data.filter((item) => includeValues.includes(item.id));
 };
 
 const selectedValues = ['astro', 'next-js', 'gatsby'];
@@ -64,42 +64,16 @@ const chartYAxis = createYAxis(createChartValues(0, maxValue), chartHeight, 60, 
 const chartGuides = createChartGuides(guides, chartWidth, chartHeight, paddingL, paddingR, paddingTop, paddingBottom);
 
 const chartData = filterData(allData, selectedValues);
-
-console.log(chartData);
 ---
 
 <html>
-  <body
-    style={{
-      margin: 0,
-    }}
-  >
-    <main
-      style={{
-        margin: '40px',
-      }}
-    >
-      <svg
-        xmlns='http://www.w3.org/2000/svg'
-        viewBox={`0 0 ${chartWidth} ${chartHeight}`}
-        style={{
-          background: '#FAFAFA',
-        }}
-      >
+  <body>
+    <main>
+      <svg xmlns='http://www.w3.org/2000/svg' viewBox={`0 0 ${chartWidth} ${chartHeight}`} class='bg-gray-100'>
         {
           chartGuides.map((data) => {
             const { x, y, width } = data;
-            return (
-              <rect
-                x={x}
-                y={y}
-                width={width}
-                height={2}
-                style={{
-                  fill: '#E0E0E0',
-                }}
-              />
-            );
+            return <rect x={x} y={y} width={width} height={2} class='fill-gray-200' />;
           })
         }
 
@@ -128,10 +102,9 @@ console.log(chartData);
                 x={x + fontSize / 2}
                 y={y}
                 text-anchor='start'
+                class='fill-gray-400'
                 style={{
-                  fill: '#9E9E9E',
                   fontSize: fontSize,
-                  fontFamily: 'system-ui',
                   transform: 'rotate(90deg)',
                   transformBox: 'content-box',
                 }}
@@ -151,10 +124,9 @@ console.log(chartData);
                 x={x}
                 y={y + fontSize / 2}
                 text-anchor='start'
+                class='fill-gray-400'
                 style={{
-                  fill: '#9E9E9E',
                   fontSize: fontSize,
-                  fontFamily: 'system-ui',
                 }}
               >
                 {value}
@@ -163,10 +135,6 @@ console.log(chartData);
           })
         }
       </svg>
-      <!-- <pre>{JSON.stringify(chartMonths, null,2 )}</pre> -->
-      <!-- <pre>{JSON.stringify(maxValue)}</pre> -->
-      <!-- <pre>{JSON.stringify(tagCounts, null, 2)}</pre> -->
-      <!-- <pre>{JSON.stringify(chartData, null, 2)}</pre> -->
     </main>
   </body>
 </html>
