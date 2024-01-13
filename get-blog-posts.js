@@ -40,26 +40,3 @@ client
   .catch((error) => {
     console.error('Error getting space:', error);
   });
-
-// client.getSpace(spaceId).then((space) => {
-//   space.getEnvironment('master').then((environment) => {
-//     data.forEach(async (post) => {
-//       const { type, title, tags, date, url, publication, author, logo } = post;
-
-//       await environment.createEntry('blogPost', {
-//         fields: {
-//           type: { 'en-US': type },
-//           title: { 'en-US': title },
-//           tags: { 'en-US': tags },
-//           date: { 'en-US': date },
-//           url: { 'en-US': url },
-//           publication: { 'en-US': publication },
-//           author: { 'en-US': author },
-//           logo: {
-//             'en-US': logo,
-//           },
-//         },
-//       });
-//     });
-//   });
-// });
