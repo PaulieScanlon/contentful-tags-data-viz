@@ -21,5 +21,8 @@ export const createLineChartPoints = (
     return `${x + paddingL},${y - paddingBottom}`;
   });
 
-  return results;
+  const starValues = [results[0].split(',')[0], chartHeight - paddingBottom];
+  const endValues = [results[results.length - 1].split(',')[0], chartHeight - paddingBottom];
+
+  return [starValues, results, endValues].toString();
 };
