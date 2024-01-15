@@ -601,10 +601,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@qwikdev/astro@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@qwikdev/astro/-/astro-0.4.0.tgz#6a35848ddd82c1ee06b70b23be3320d5eb5b1677"
-  integrity sha512-6Rl2FhFJZMcphXpV5nY2RvxnojllxUTatiOPOjqKndAkJLr7fOs1Uxf87HFHUVcF23z+xvuOR2rKVMTqImq7HA==
+"@qwikdev/astro@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@qwikdev/astro/-/astro-0.4.1.tgz#c96eb508c8b7e4d0e3fa82db582380bd6b071824"
+  integrity sha512-p7h63CZ1MRswj5fuua1o+ekvHT9/V4mLFsJfoJobxrHC12xrKF1MRckqXqz5VA3RMU5Iyrws7m4b6tu1NVz9gw==
   dependencies:
     fs-extra "^11.1.1"
     vite-tsconfig-paths "^4.2.1"
