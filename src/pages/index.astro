@@ -49,6 +49,7 @@ const chartData = timeSeries
         paddingTop,
         paddingBottom
       ).toString(),
+      // fills: createLineChartFills()
     };
   })
   .sort((a, b) => b.total - a.total);
@@ -134,25 +135,33 @@ const chartGuides = createChartGuides(guides, chartWidth, chartHeight, paddingL,
               viewBox={`0 0 ${chartWidth} ${chartHeight}`}
               class='bg-white shadow'
             >
+
               {chartGuides.map((data) => {
                 const { x, y, width } = data;
                 return <rect  x={x} y={y} width={width} height={2} class='fill-gray-200' />;
               })}
 
-              {chartData.map((data, index) => {
+              {chartData.map((data) => {
                 const { id, color, points } = data;
    
                 return (
-                  <polyline
+                  <g>
+                    <linearGradient id={`${id}-fill-gradient`} x1='0%' y1='0%' x2='0%' y2='100%'>
+                      <stop offset='0%' stop-color={color} stop-opacity={0.3} />
+                      <stop offset='100%' stop-color={color} stop-opacity='0' />
+                    </linearGradient>
+                    <polyline
                     id={`${id}-polyline`}
                     class="polyline"
                     points={points}
                     style={{
-                      fill: 'none',
+                      fill: `url(#${id}-fill-gradient)`,
+                      fillOpacity: 1,
                       strokeWidth: 3,
                       stroke: color,
                     }}
-                  />
+                    />
+                    </g>
                 );
               })}
 
