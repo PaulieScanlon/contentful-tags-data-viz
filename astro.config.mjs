@@ -1,7 +1,6 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
-import qwikdev from '@qwikdev/astro';
 
 export default defineConfig({
-  integrations: [tailwind(), qwikdev()],
+  integrations: [tailwind()],
 });

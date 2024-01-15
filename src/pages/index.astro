@@ -1,6 +1,6 @@
 ---
 import Main from '../layouts/main.astro';
-import Dashboard from '../layouts/dashboard';
+
 
 import { contentfulClient } from '../lib/contentful';
 
@@ -22,6 +22,7 @@ const timeSeries = createTimeSeries(tags.items);
 const maxValue = findMaxValue(timeSeries);
 const guides = [...Array(8).keys()];
 
+const fontSize = 20;
 const chartWidth = 1920;
 const chartHeight = 1080;
 const paddingL = 120;
@@ -59,18 +60,178 @@ const chartXAxis = createXAxis(dateRange, chartWidth, chartHeight, paddingL, pad
 const chartYAxis = createYAxis(createChartValues(0, maxValue), chartHeight, 60, paddingTop, paddingBottom);
 const chartGuides = createChartGuides(guides, chartWidth, chartHeight, paddingL, paddingR, paddingTop, paddingBottom);
 ---
+<script>
+   document.querySelectorAll('.polyline').forEach((polyline) => {  
+      polyline.style.display = 'none'
+   })
 
+    const selectedValues = ['gatsby', 'next-js', 'astro', 'remix']
+
+    selectedValues.forEach((value) =>{
+        document.getElementById(`${value}-checkbox`).setAttribute('checked', 'true')
+        document.getElementById(`${value}-polyline`).style.display = 'block'
+        document.getElementById(`${value}-chip`).style.backgroundColor =  document.getElementById(`${value}-checkbox`).getAttribute('data-color')
+    })
+
+
+   document.querySelectorAll('.checkbox').forEach((checkbox) => {
+    checkbox.addEventListener('change' , (event) => {
+    const {target, target: {value, checked}} = event
+
+        if(checked) {
+            document.getElementById(`${value}-polyline`).style.display = 'block'
+            document.getElementById(`${value}-chip`).style.backgroundColor =  target.getAttribute('data-color')
+        }else {
+            document.getElementById(`${value}-polyline`).style.display = 'none'
+            document.getElementById(`${value}-chip`).style.backgroundColor =  ''
+        }
+
+    })
+   })
+</script>
 <Main>
-  <Dashboard
-    dateStart={dateStart}
-    dateEnd={dateEnd}
-    paddingL={paddingL}
-    paddingR={paddingR}
-    chartData={chartData}
-    chartWidth={chartWidth}
-    chartHeight={chartHeight}
-    chartXAxis={chartXAxis}
-    chartYAxis={chartYAxis}
-    chartGuides={chartGuides}
-  />
+    <div class='relative flex'>
+        <aside class='fixed w-72 shadow-lg h-screen overflow-scroll'>
+          <div class='pl-4 pr-6 pb-8'>
+            <div class='pt-6'>
+              <img alt='Contentful Logo' src='/contentful-logo.svg' class='w-32' />
+            </div>
+            <hr class='my-4' />
+            <ul class='flex flex-col gap-1'>
+              {chartData.map((item) => {
+                const { id, color, name, total } = item;
+              
+                return (
+                  <link class='p-2 transition-colors duration-300 hover:bg-gray-100'>
+                    <label class='flex gap-2 items-center text-xs cursor-pointer'>
+                      <input
+                        id={`${id}-checkbox`}
+                        type='checkbox'
+                        value={id}
+                        class='checkbox cursor-pointer'
+                        data-color={color}
+                      />
+                      <div class='flex items-center justify-between w-full'>
+                        <span class='font-medium select-none'>{name}</span>
+                        <span
+                          id={`${id}-chip`}
+                          class='flex items-center justify-center text-white rounded-full w-5 h-5 bg-gray-200'
+                        >
+                          {total}
+                        </span>
+                      </div>
+                    </label>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </aside>
+        <section class='ml-72 w-full h-full min-h-screen bg-gray-50'>
+          <div class='p-8'>
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              viewBox={`0 0 ${chartWidth} ${chartHeight}`}
+              class='bg-white shadow'
+            >
+              {chartGuides.map((data) => {
+                const { x, y, width } = data;
+                return <rect  x={x} y={y} width={width} height={2} class='fill-gray-200' />;
+              })}
+
+              {chartData.map((data, index) => {
+                const { id, color, points } = data;
+   
+                return (
+                  <polyline
+                    id={`${id}-polyline`}
+                    class="polyline"
+                    points={points}
+                    style={{
+                      fill: 'none',
+                      strokeWidth: 3,
+                      stroke: color,
+                    }}
+                  />
+                );
+              })}
+
+              {chartXAxis.map((data) => {
+                const { date, x, y } = data;
+                return (
+                  <text
+                   
+                    x={x + fontSize / 2}
+                    y={y}
+                    text-anchor='start'
+                    class='fill-gray-400'
+                    style={{
+                      fontSize: fontSize,
+                      transform: 'rotate(90deg)',
+                      transformBox: 'content-box',
+                    }}
+                  >
+                    {date}
+                  </text>
+                );
+              })}
+
+              {chartYAxis.map((data) => {
+                const { value, x, y } = data;
+
+                return (
+                  <text
+                  
+                    x={x}
+                    y={y + fontSize / 2}
+                    text-anchor='start'
+                    class='fill-gray-400'
+                    style={{
+                      fontSize: fontSize,
+                    }}
+                  >
+                    {value}
+                  </text>
+                );
+              })}
+
+              <text
+                x={paddingL}
+                y={110}
+                text-anchor='start'
+                class='fill-gray-600 font-bold'
+                style={{
+                  fontSize: 60,
+                }}
+              >
+                Tags Usage
+              </text>
+              <text
+                x={paddingL}
+                y={160}
+                text-anchor='start'
+                class='fill-gray-600'
+                style={{
+                  fontSize: 30,
+                }}
+              >
+                https://paulie.dev
+              </text>
+              <text
+                x={chartWidth - paddingR}
+                y={160}
+                text-anchor='end'
+                class='fill-gray-600'
+                style={{
+                  fontSize: 30,
+                }}
+              >
+                <tspan>{`${dateStart.month}, ${dateStart.year}`}</tspan>
+                <tspan>{` - ${dateEnd.month}, ${dateEnd.year}`}</tspan>
+              </text>
+            </svg>
+          </div>
+        </section>
+      </div>
 </Main>
+
