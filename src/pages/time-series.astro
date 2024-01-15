@@ -1,0 +1,13 @@
+---
+import { contentfulClient } from '../lib/contentful';
+
+import { createTimeSeries } from '../utils/create-time-series';
+
+const tags = await contentfulClient.getEntries({
+  content_type: 'blogPost',
+});
+
+const timeSeries = createTimeSeries(tags.items);
+---
+
+<pre>{JSON.stringify(timeSeries, null, 2)}</pre>

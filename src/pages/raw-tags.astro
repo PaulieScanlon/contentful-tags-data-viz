@@ -1,5 +1,4 @@
 ---
-import Main from '../layouts/main.astro';
 import { contentfulClient } from '../lib/contentful';
 
 const tags = await contentfulClient.getEntries({
@@ -7,20 +6,4 @@ const tags = await contentfulClient.getEntries({
 });
 ---
 
-<Main>
-  <ul>
-    {
-      tags.items.map((item) => {
-        const {
-          fields: { tags },
-        } = item;
-
-        return (
-          <li>
-            <code>{JSON.stringify(tags, null, 2)}</code>
-          </li>
-        );
-      })
-    }
-  </ul>
-</Main>
+<pre>{JSON.stringify(tags.items, null, 2)}</pre>
