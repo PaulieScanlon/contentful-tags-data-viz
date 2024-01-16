@@ -4,13 +4,14 @@ import { contentfulClient } from '../lib/contentful';
 import Main from '../layouts/main.astro';
 
 import { createTimeSeries } from '../utils/create-time-series';
-import { createLineChartPoints } from '../utils/create-line-chart-points';
+import { findMaxValue } from '../utils/find-max-value';
 import { getDateRange } from '../utils/get-date-range';
-import { createChartValues } from '../utils/create-chart-values';
+import { getValuesRange } from '../utils/get-values-range.js';
+import { createLineChartPoints } from '../utils/create-line-chart-points';
 import { createXAxis } from '../utils/create-x-axis';
 import { createYAxis } from '../utils/create-y-axis';
 import { createChartGuides } from '../utils/create-chart-guides';
-import { findMaxValue } from '../utils/find-max-value';
+
 import { materialColorsFlat } from '../utils/material-colors';
 
 const tags = await contentfulClient.getEntries({
@@ -22,6 +23,9 @@ const maxValue = findMaxValue(timeSeries);
 const dateRange = getDateRange(timeSeries[0].years);
 const dateStart = dateRange[0];
 const dateEnd = dateRange[dateRange.length - 1];
+const valuesRange = getValuesRange(0, maxValue)
+
+console.log(valuesRange)
 
 const fontSize = 20;
 const chartWidth = 1920;
@@ -30,7 +34,6 @@ const paddingL = 120;
 const paddingR = 70;
 const paddingTop = 220;
 const paddingBottom = 180;
-
 
 const chartData = timeSeries
   .map((data, index) => {
@@ -55,7 +58,7 @@ const chartData = timeSeries
   })
   .sort((a, b) => b.total - a.total);
 const chartXAxis = createXAxis(dateRange, chartWidth, chartHeight, paddingL, paddingR, 120);
-const chartYAxis = createYAxis(createChartValues(0, maxValue), chartHeight, 60, paddingTop, paddingBottom);
+const chartYAxis = createYAxis(valuesRange, chartHeight, 60, paddingTop, paddingBottom);
 const chartGuides = createChartGuides( [...Array(8).keys()], chartWidth, chartHeight, paddingL, paddingR, paddingTop, paddingBottom);
 ---
 <script>
