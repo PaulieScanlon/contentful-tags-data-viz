@@ -1,0 +1,19 @@
+---
+import { contentfulClient } from '../lib/contentful';
+
+import { createTimeSeries } from '../utils/create-time-series';
+import { findMaxValue } from '../utils/find-max-value';
+import { getDateRange } from '../utils/get-date-range';
+
+const tags = await contentfulClient.getEntries({
+  content_type: 'blogPost',
+});
+
+const timeSeries = createTimeSeries(tags.items);
+const maxValue = findMaxValue(timeSeries);
+const dateRange = getDateRange(timeSeries[0].years);
+const dateStart = dateRange[0];
+const dateEnd = dateRange[dateRange.length - 1];
+---
+
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'></svg>

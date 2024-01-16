@@ -5,7 +5,7 @@ import Main from '../layouts/main.astro';
 
 import { createTimeSeries } from '../utils/create-time-series';
 import { createLineChartPoints } from '../utils/create-line-chart-points';
-import { createChartDates } from '../utils/create-chart-dates';
+import { getDateRange } from '../utils/get-date-range';
 import { createChartValues } from '../utils/create-chart-values';
 import { createXAxis } from '../utils/create-x-axis';
 import { createYAxis } from '../utils/create-y-axis';
@@ -19,7 +19,9 @@ const tags = await contentfulClient.getEntries({
 
 const timeSeries = createTimeSeries(tags.items);
 const maxValue = findMaxValue(timeSeries);
-const dateRange = createChartDates(timeSeries[0].years);
+const dateRange = getDateRange(timeSeries[0].years);
+const dateStart = dateRange[0];
+const dateEnd = dateRange[dateRange.length - 1];
 
 const fontSize = 20;
 const chartWidth = 1920;
@@ -28,8 +30,6 @@ const paddingL = 120;
 const paddingR = 70;
 const paddingTop = 220;
 const paddingBottom = 180;
-const dateStart = dateRange[0];
-const dateEnd = dateRange[dateRange.length - 1];
 
 
 const chartData = timeSeries
@@ -241,3 +241,4 @@ const chartGuides = createChartGuides( [...Array(8).keys()], chartWidth, chartHe
 
     </div>
 </Main>
+../utils/get-date-range

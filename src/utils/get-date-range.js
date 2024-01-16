@@ -1,4 +1,4 @@
-export const createChartDates = (data) => {
+export const getDateRange = (data) => {
   const years = Object.keys(data);
 
   const dates = Object.values(data)
