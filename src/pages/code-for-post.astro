@@ -1,18 +1,17 @@
 ---
-import { contentfulClient } from '../lib/contentful';
+import { contentfulClient } from '../lib/contentful.js';
 
-import Main from '../layouts/main.astro';
+import Main from '../layouts/main.astro.jsx';
 
-import { createTimeSeries } from '../utils/create-time-series';
-import { findMaxValue } from '../utils/find-max-value';
-import { getDateRange } from '../utils/get-date-range';
+import { createTimeSeries } from '../utils/create-time-series.js';
+import { findMaxValue } from '../utils/find-max-value.js';
+import { getDateRange } from '../utils/get-date-range.js';
 import { getValuesRange } from '../utils/get-values-range.js';
-import { createLineChartPoints } from '../utils/create-line-chart-points';
-import { materialColorsFlat } from '../utils/material-colors';
-import { createXAxis } from '../utils/create-x-axis';
-import { createYAxis } from '../utils/create-y-axis';
-import { createChartGuides } from '../utils/create-chart-guides';
-
+import { createLineChartPoints } from '../utils/create-line-chart-points.js';
+import { materialColorsFlat } from '../utils/material-colors.js';
+import { createXAxis } from '../utils/create-x-axis.js';
+import { createYAxis } from '../utils/create-y-axis.js';
+import { createChartGuides } from '../utils/create-chart-guides.js';
 
 const tags = await contentfulClient.getEntries({
   content_type: 'blogPost',
@@ -23,7 +22,7 @@ const maxValue = findMaxValue(timeSeries);
 const dateRange = getDateRange(timeSeries[0].years);
 const dateStart = dateRange[0];
 const dateEnd = dateRange[dateRange.length - 1];
-const valuesRange = getValuesRange(0, maxValue)
+const valuesRange = getValuesRange(0, maxValue);
 
 const fontSize = 20;
 const chartWidth = 1920;
@@ -51,14 +50,23 @@ const chartData = timeSeries
         paddingR,
         paddingTop,
         paddingBottom
-      )
+      ),
     };
   })
   .sort((a, b) => b.total - a.total);
 const chartXAxis = createXAxis(dateRange, chartWidth, chartHeight, paddingL, paddingR, 120);
 const chartYAxis = createYAxis(valuesRange, chartHeight, 60, paddingTop, paddingBottom);
-const chartGuides = createChartGuides( [...Array(valuesRange.length).keys()], chartWidth, chartHeight, paddingL, paddingR, paddingTop, paddingBottom);
+const chartGuides = createChartGuides(
+  [...Array(valuesRange.length).keys()],
+  chartWidth,
+  chartHeight,
+  paddingL,
+  paddingR,
+  paddingTop,
+  paddingBottom
+);
 ---
+
 <script>
   const selectedValues = ['gatsby', 'next-js', 'astro', 'remix'];
 
@@ -91,14 +99,11 @@ const chartGuides = createChartGuides( [...Array(valuesRange.length).keys()], ch
     });
   });
 </script>
-<Main>
+
+<main>
   <div class='relative flex flex-col sm:flex-row'>
     <aside class='sm:fixed sm:w-72 h-96 sm:h-screen shadow-lg overflow-scroll'>
-      <div class='pl-4 pr-6 pb-8'>
-        <div class='pt-6'>
-          <img alt='Contentful Logo' src='/contentful-logo.svg' class='w-32' />
-        </div>
-        <hr class='my-4' />
+      <div class='p-8'>
         <ul class='flex flex-col gap-1'>
           {chartData.map((item) => {
             const { id, color, name, total } = item;
@@ -136,75 +141,81 @@ const chartGuides = createChartGuides( [...Array(valuesRange.length).keys()], ch
           viewBox={`0 0 ${chartWidth} ${chartHeight}`}
           class='bg-white shadow max-w-6xl'
         >
-          {chartGuides.map((data) => {
-            const { x, y, width } = data;
+          {
+            chartGuides.map((data) => {
+              const { x, y, width } = data;
 
-            return <rect  x={x} y={y} width={width} height={2} class='fill-gray-200' />;
-          })}
+              return <rect x={x} y={y} width={width} height={2} class='fill-gray-200' />;
+            })
+          }
 
-          {chartData.map((data) => {
-            const { id, color, points } = data;
+          {
+            chartData.map((data) => {
+              const { id, color, points } = data;
 
-            return (
-              <g>
-                <linearGradient id={`${id}-fill-gradient`} x1='0%' y1='0%' x2='0%' y2='100%'>
-                  <stop offset='50%' stop-color={color} stop-opacity={0.1} />
-                  <stop offset='100%' stop-color={color} stop-opacity='0' />
-                </linearGradient>
-                <polyline
-                id={`${id}-polyline`}
-                class="polyline"
-                points={points}
-                style={{
-                  fill: `url(#${id}-fill-gradient)`,
-                  fillOpacity: 1,
-                  strokeWidth: 3,
-                  stroke: color,
-                }}
-                />
+              return (
+                <g>
+                  <linearGradient id={`${id}-fill-gradient`} x1='0%' y1='0%' x2='0%' y2='100%'>
+                    <stop offset='50%' stop-color={color} stop-opacity={0.1} />
+                    <stop offset='100%' stop-color={color} stop-opacity='0' />
+                  </linearGradient>
+                  <polyline
+                    id={`${id}-polyline`}
+                    class='polyline'
+                    points={points}
+                    style={{
+                      fill: `url(#${id}-fill-gradient)`,
+                      fillOpacity: 1,
+                      strokeWidth: 3,
+                      stroke: color,
+                    }}
+                  />
                 </g>
-            );
-          })}
+              );
+            })
+          }
 
-          {chartXAxis.map((data) => {
-            const { date, x, y } = data;
-            
-            return (
-              <text
-                
-                x={x + fontSize / 2}
-                y={y}
-                text-anchor='start'
-                class='fill-gray-400'
-                style={{
-                  fontSize: fontSize,
-                  transform: 'rotate(90deg)',
-                  transformBox: 'content-box',
-                }}
-              >
-                {date}
-              </text>
-            );
-          })}
+          {
+            chartXAxis.map((data) => {
+              const { date, x, y } = data;
 
-          {chartYAxis.map((data) => {
-            const { value, x, y } = data;
+              return (
+                <text
+                  x={x + fontSize / 2}
+                  y={y}
+                  text-anchor='start'
+                  class='fill-gray-400'
+                  style={{
+                    fontSize: fontSize,
+                    transform: 'rotate(90deg)',
+                    transformBox: 'content-box',
+                  }}
+                >
+                  {date}
+                </text>
+              );
+            })
+          }
 
-            return (
-              <text
-              
-                x={x}
-                y={y + fontSize / 2}
-                text-anchor='start'
-                class='fill-gray-400'
-                style={{
-                  fontSize: fontSize,
-                }}
-              >
-                {value}
-              </text>
-            );
-          })}
+          {
+            chartYAxis.map((data) => {
+              const { value, x, y } = data;
+
+              return (
+                <text
+                  x={x}
+                  y={y + fontSize / 2}
+                  text-anchor='start'
+                  class='fill-gray-400'
+                  style={{
+                    fontSize: fontSize,
+                  }}
+                >
+                  {value}
+                </text>
+              );
+            })
+          }
 
           <text
             x={paddingL}
@@ -244,4 +255,4 @@ const chartGuides = createChartGuides( [...Array(valuesRange.length).keys()], ch
       </div>
     </section>
   </div>
-</Main>
+</main>
